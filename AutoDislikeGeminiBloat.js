@@ -14,7 +14,7 @@
     'use strict';
     let interval = setInterval(dislikeGarbage, 2500);
     function dislikeGarbage(){
-        let element = document.querySelector("[aria-label=\"Thumbs down\"]");
+        let element = document.querySelector("[aria-label=\"Submit negative feedback\"]");
         if (element === null){
             return;
         }
